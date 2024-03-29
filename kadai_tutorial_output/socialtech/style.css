@@ -213,3 +213,85 @@ h3{
 .culture-description{
   margin: 0;
 }
+/* VISION */
+#vision{
+  margin: 80px auto;
+}
+/* セクション内の外枠 */
+#vision > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* 7つの行動指針の枠 */
+.vision-box{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vision-box > img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+.vision-box > span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 31;
+  margin-right: 20px;
+}
+.vision-box > span > h4{
+  color: #2710d5;
+  font-size: 19px;
+  margin: 80px 0 0 0;
+}
+.vision-box > span > h4::first-letter{
+  font-size: 40px;
+}
+.vision-box > span > h5{
+  font-size: 20px;
+  margin: 0;
+}
+.vision-box > span > p{
+  margin: 10px 0 0 0;
+}
+/* 会社概要 */
+#company{
+  margin: 80px auto;
+}
+#company-table{
+  width: 100%;
+}
+.tableheader{
+  text-align: left;
+  padding: 20px;
+  width: 100px;
+  border-bottom: 1px solid #2710d5;
+}
+.tableheader-first{
+  text-align: left;
+  padding: 20px;
+  width: 100px;
+  border-bottom: 1px solid #2710d5;
+  border-top: 1px solid #2710d5;
+}
+.cell{
+  padding: 30px;
+  border-bottom: 1px solid #ececec;
+}
+.cell-first{
+  padding: 30px;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+}
+#company > iframe{
+  width: 100%;
+  height: 368px;
+  margin-top: 40px;
+}
