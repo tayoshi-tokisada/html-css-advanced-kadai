@@ -1,0 +1,8 @@
+{
+  "workbench.editor.openSideBySideDirection": "down",
+  "css.enabledLanguages": [
+    "html"
+  ],
+  "css.styleSheets": [
+    "kadai_tutorial_output/socialtech/style.css"  ]
+}
