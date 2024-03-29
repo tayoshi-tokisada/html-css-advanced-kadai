@@ -45,6 +45,7 @@ header{
 #nav-pc > a:active{
   color: #0d0d0d;
 }
+/* メインビジュアル */
 #main-visual{
   position: relative;
   height: 400px;
@@ -76,4 +77,139 @@ header{
   z-index: 11;
   max-width: 620px;
   border-radius: 476px 0 0 0;
+}
+/* 見出し */
+h2{
+  margin: 40px 0 0 0;
+}
+h2::after{
+  content: url(images/line.png);
+  margin-left: 10px;
+}
+h3{
+  font-size: 27px;
+}
+/* ミッション */
+#mission{
+  margin: 80px auto;
+  width: 100%;
+}
+#mission-flex{
+  width: 100%;
+  display: flex;
+}
+#mission-flex > div{
+  width: 50%;
+  margin: 20px;
+}
+#mission-photo{
+  width: 100%;
+}
+#s2dgs{
+  margin: 50px 0 0 0;
+  width: 100%;
+}
+/* プロダクト */
+#product{
+  background-color: #fafafa;
+  margin: 80px 0;
+  padding: 10px 40px 0 40px;
+}
+/* 外枠 */
+#product > div{
+  margin-top: 40px;
+  display: flex;
+}
+/* 左のカラム */
+#product-left{
+  width: 50%;
+  margin-right: 20px;
+}
+/* 右のカラム */
+#product-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+/* 画像　説明の枠 */
+#product-left > div{
+  position: relative;
+  height: 400px;
+  margin-right: 20px;
+}
+#product-right > div{
+  position: relative;
+  height: 400px;
+  margin-left: 20px;
+}
+.product-photo{
+  width: 100%;
+}
+.product-explain{
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  margin: 0 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+.product-explain > span{
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+.product-explain > h3{
+  font-size: 20px;
+  margin: 5px 0;
+}
+.product-explain > p{
+  font-size: 14px;
+  margin: 0;
+}
+#product-more{
+  margin: 0 auto -42px auto;
+}
+/* ABOUT US */
+#aboutus{
+  margin: 80px auto;
+}
+#aboutus > div{
+  display: flex;
+}
+/* 画像 */
+.culture-img{
+  width: 100%;
+  align-self: flex-start;
+}
+.culture-img2{
+  margin-top: 50px;
+  width: 100%;
+}
+/* 3つの組織文化の表 */
+.culture-table{
+  margin-right: 50px;
+}
+/* 番号 */
+.culture-num{
+  font-size: 80px;
+  color: #2710d5;
+  margin: 0 20px 0 0;
+}
+/* 組織文化英語 */
+.culture-en{
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+/* 組織文化日本語 */
+.culture-jp{
+  font-size: 28px;
+  font-weight: bold;
+}
+/* 説明文 */
+.culture-description{
+  margin: 0;
 }
