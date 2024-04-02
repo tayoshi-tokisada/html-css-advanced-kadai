@@ -490,3 +490,33 @@ footer {
   color: #ffffff;
   float: right;
 }
+
+#cases{
+  margin: 40px 0;
+  width: 100%;
+}
+#cases-flex{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.case-card{
+  width: 33%;
+  margin: 20px;
+  background-color: #ffffff;
+  min-height: 400px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.case-img{
+  width: 100%;
+}
+.case-info{
+  padding: 10px 20px;
+}
+.case-name{
+  color: #2710d5;
+  font-size: 19px;
+}
+.case-content{
+  font-size: 14px;
+}
