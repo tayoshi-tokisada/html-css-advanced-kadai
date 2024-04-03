@@ -395,6 +395,84 @@ p{
     color: #ffffff;
     float: right;
   }
+
+  /* mission.html用スタイル */
+  /* ミッションのメインビジュアル */
+  #mission-main{
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  #mission-title{
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+  #mission-title > h1{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+  #mission-title > span{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+  #mission-title > div{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+  #mission-s2dgs{
+    width: 100%;
+    margin: 20px;
+  }
+  .mission-h2{
+    color: #2710d5;
+    font-size: 40px;
+  }
+  .mission-h2::after{
+    content: none;
+  }
+  #mission-fivegoals{
+    margin: 20px;
+    display: flex;
+  }
+  #mission-fivegoals > div{
+    flex-grow: 1;
+    padding: 20px;
+  }
+  #mission-fivegoals > div > div{
+    margin-bottom: 40px;
+  }
+  .fivegoals-image-right{
+    float: right;
+    margin: 20px;
+  }
+  .fivegoals-image-left{
+    float: left;
+    margin: 20px;
+  }
+  .fivegoals-num{
+    color: #2710d5;
+    font-size: 48px;
+    margin: 0;
+  }
+  .fivegoals-h3{
+    font-size: 28px;
+    margin: 0;
+  }
+  .fivegoals-p{
+    margin: 0;
+  }
 }
 
 /* ================== */
