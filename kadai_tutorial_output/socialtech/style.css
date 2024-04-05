@@ -473,6 +473,90 @@ p{
   .fivegoals-p{
     margin: 0;
   }
+
+  /* product.html用スタイル */
+  /* プロダクトのメインビジュアル */
+  #product-main{
+    height: 496px;
+    width: 100%;
+    background-image: url("images/product/product-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  #product-title{
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+  #product-title > h1{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+  #product-title > span{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+  #product-title > div{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+  .product-section-right{
+    position: relative;
+    margin: 20px;
+    height: 340px;
+  }
+  .product-section-right > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-top-right-radius: 432px;
+  }
+  .product-section-right > div{
+    position: absolute;
+    top: 0;
+    left: 480px;
+  }
+  .product-section-left{
+    position: relative;
+    margin: 20px;
+    height: 340px;
+  }
+  .product-section-left > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-top-left-radius: 432px;
+  }
+  .product-section-left > div{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .product-h2{
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+  }
+  .product-h3{
+    font-size: 28px;
+    margin: 0;
+  }
 }
 
 /* ================== */
