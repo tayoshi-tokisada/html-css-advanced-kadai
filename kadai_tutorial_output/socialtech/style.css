@@ -1004,4 +1004,70 @@ p{
   .fivegoals-p{
     margin: 0;
   }
+
+  /* product.html用スタイル */
+  /* プロダクトのメインビジュアル */
+  #product-main{
+    height: 256px;
+    width: 100%;
+    background-image: url("images/product/product-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 208px;
+  }
+  #product-title{
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+  #product-title > h1{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+  #product-title > span{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+  #product-title > div{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+  .product-section-right{
+    margin: 20px;
+  }
+  .product-section-right > img{
+    width: 100%;
+    border-top-right-radius: 300px;
+  }
+  .product-section-left{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-section-left > img{
+    order: 1;
+    width: 100%;
+    border-top-right-radius: 300px;
+  }
+  .product-section-left > div{
+    order: 2;
+  }
+  .product-h2{
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+  }
+  .product-h3{
+    font-size: 28px;
+    margin: 0;
+  }
 }
