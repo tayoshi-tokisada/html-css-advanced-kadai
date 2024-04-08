@@ -4,7 +4,8 @@
     "html"
   ],
   "css.styleSheets": [
-    "kadai_tutorial_output/socialtech/style.css"  ],
+    "kadai_tutorial_output/socialtech/style.css"
+    ,"kadai_copying/ka-profile/style.css"  ],
   "[markdown]": {
       "editor.wordWrap": "on",
       "editor.quickSuggestions": {
