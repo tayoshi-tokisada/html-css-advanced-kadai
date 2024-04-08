@@ -4,5 +4,14 @@
     "html"
   ],
   "css.styleSheets": [
-    "kadai_tutorial_output/socialtech/style.css"  ]
+    "kadai_tutorial_output/socialtech/style.css"  ],
+  "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+      },
+      "editor.snippetSuggestions": "top",
+    },
 }

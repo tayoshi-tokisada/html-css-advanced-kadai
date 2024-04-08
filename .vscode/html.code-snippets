@@ -33,4 +33,15 @@
 			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
 		]
 	},
+	"meta:twitter:card": {
+		"prefix": "meta:twittercard",
+		"body": [
+			"<meta name=\"twitter:card\" content=\"summary\">",
+			"<meta name=\"twitter:site\" content=\"$1\">",
+			"<meta property=\"og:url\" content=\"$2\">",
+			"<meta property=\"og:title\" content=\"$3\">",
+			"<meta property=\"og:description\" content=\"$4\">",
+			"<meta property=\"og:image\" content=\"$5\">"
+		]
+	},
 }
