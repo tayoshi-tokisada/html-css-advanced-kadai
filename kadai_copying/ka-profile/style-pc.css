@@ -1,0 +1,64 @@
+/* --------------- */
+/* PC用　768px以上 */
+/* --------------- */
+
+/* 全体 */
+body{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ヘッダー */
+header{
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  margin-left: 100px;
+}
+
+/* メインヴィジュアル */
+#sec-mainvisual > img{
+  width: 100vw;
+  max-width: 1280px;
+  height: auto;
+}
+
+/* aboutセクション */
+#sec-about{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; 
+}
+#div-about{
+  display: flex;
+  justify-content: center;
+}
+#div-about > img{
+  width: 141px;
+  height: 142px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 35px;
+  right: 35px;
+}
+
+/* worksセクション */
+#sec-works{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; 
+}
+#div-works{
+  display: flex;
+  justify-content: space-between;
+}
+#div-works div{
+  max-width: 190px;
+}
+#div-works img{
+  width: 190px;
+}

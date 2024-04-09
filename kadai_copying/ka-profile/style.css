@@ -1,8 +1,18 @@
+/* --------------- */
+/* PC用　768px以上 */
+/* --------------- */
+@import url("style-pc.css") screen and (min-width: 768px);
+
+/* --------------- */
+/* SP用　767px以下 */
+/* --------------- */
+@import url("style-sp.css") screen and (max-width: 767px);
+
 /* --------- */
 /* PC,SP共通 */
 /* --------- */
 
-/* 全体 */
+/* 文字色、背景色、フォント、文字サイズ */
 body{
   color: #000000;
   background-color: #ffffff;
@@ -10,16 +20,16 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  margin: 0 auto;
-  width: 100%;
 }
 h1{
+  text-align: center;
   font-size: 34px;
 }
 h2{
   font-size: 24px;
 }
 p{
+  text-align: center;
   font-size: 18px;
 }
 a{
@@ -39,59 +49,9 @@ a:hover{
   color: #000000;
   text-decoration: underline;
 }
-
-/* ヘッダー */
 header{
   font-size: 34px;
-  display: flex;
-  justify-content: space-between;
 }
 #title{
   border: 1px solid #000000;
-}
-
-/* aboutセクション */
-#sec-about > img{
-  width: 141px;
-  height: 142px;
-}
-#div-about, #div-works{
-  display: flex;
-  justify-content: space-between;
-}
-
-/* --------------- */
-/* PC用　768px以上 */
-/* --------------- */
-@media screen and (min-width: 768px){
-  
-  /* 全体 */
-  body{
-    margin: 0 auto;
-    width: 60%;
-  }
-
-  /* メインヴィジュアル */
-  #sec-mainvisual > img{
-    width: 100%;
-    height: 400px;
-  }
-}
-
-/* --------------- */
-/* SP用　767px以下 */
-/* --------------- */
-@media screen and (max-width: 767px){
-  
-  /* 全体 */
-  body{
-    width: 0 auto;
-    width: 100%;
-  }
-
-  /* メインビジュアル */
-  #sec-mainvisual > img{
-    width: 100%;
-    height: 400px;
-  }
 }
