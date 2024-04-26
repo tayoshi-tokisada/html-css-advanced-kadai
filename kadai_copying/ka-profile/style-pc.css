@@ -20,7 +20,12 @@ nav{
 }
 
 /* メインヴィジュアル */
-#sec-mainvisual > img{
+.carousel{
+  width: 100vw;
+  max-width: 1280px;
+  height: auto;
+}
+.carouselImg{
   width: 100vw;
   max-width: 1280px;
   height: auto;

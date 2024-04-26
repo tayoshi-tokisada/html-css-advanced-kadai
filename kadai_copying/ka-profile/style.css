@@ -55,3 +55,25 @@ header{
 #title{
   border: 1px solid #000000;
 }
+
+#overlay1{
+  /* divを起点に位置を調整する */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* オーバーレイを作成 */
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#overlay2{
+  /* divを起点に位置を調整する */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;  
+}
