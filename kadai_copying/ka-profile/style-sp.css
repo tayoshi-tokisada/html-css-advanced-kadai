@@ -35,6 +35,7 @@ nav{
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+  opacity: 0;
 }
 #div-about{
   display: flex;
@@ -61,7 +62,8 @@ nav{
 #sec-works{
   max-width: 600px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
+  opacity: 0;
 }
 #div-works div{
   text-align: center;

@@ -36,6 +36,7 @@ nav{
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  opacity: 0;
 }
 #div-about{
   display: flex;
@@ -62,6 +63,7 @@ nav{
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  opacity: 0;
 }
 #div-works{
   display: flex;

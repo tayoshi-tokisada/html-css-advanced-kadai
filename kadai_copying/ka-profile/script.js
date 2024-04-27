@@ -52,7 +52,9 @@ $(function(){
 
   // スクロール判定
   $(window).scroll(function(){
-    if($(this).scrollTop() >= 100){
+    let scrollAmount = $(window).scrollTop();
+    let windowHeight = $(window).height();
+    if(scrollAmount >= 100){
       // backToTopを表示
       $("#backToTop").css("visibility", "visible");
       $("#backToTop").css("opacity", 1);
@@ -62,6 +64,13 @@ $(function(){
       $("#backToTop").css("opacity", 0);
       $("#backToTop").css("visibility", "hidden");
     }
+    $("section").each(function(){
+      let position = $(this).offset().top;
+      if(scrollAmount > position - windowHeight + 100){
+        $(this).css("transition", "all 300ms linear");
+        $(this).css("opacity", 1);
+      }
+    });
   });
 
   $("#backToTop").on({
