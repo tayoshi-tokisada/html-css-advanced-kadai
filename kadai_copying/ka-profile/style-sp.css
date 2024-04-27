@@ -12,17 +12,21 @@ body{
 
 /* ヘッダー */
 header{
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 nav{
-  margin-left: 50px;
+  margin-left: auto;
 }
 
 /* メインヴィジュアル */
-#sec-mainvisual > img{
+.carousel{
   width: 100vw;
-  max-width: 1280px;
+  height: auto;
+}
+.carouselImg{
+  width: 100vw;
   height: auto;
 }
 
@@ -30,20 +34,27 @@ nav{
 #sec-about{
   max-width: 600px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #div-about{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
 }
 #div-about > img{
-  width: 141px;
-  height: 142px;
+  width: 292px;
+  height: 292px;
   border-radius: 50%;
   overflow: hidden;
-  position: relative;
-  top: 35px;
-  right: 35px;
+  border: solid 2px white;
+  outline: solid 2px rgb(153, 153, 153);
+  margin: auto;
+}
+#div-about > div{
+  margin: auto;
 }
 
 /* worksセクション */
@@ -56,5 +67,11 @@ nav{
   text-align: center;
 }
 #div-works img{
-  width: 90%;
+  max-width: 358px;
+  height: auto;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+#div-works img:hover{
+  opacity: 0.5;
 }
