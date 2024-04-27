@@ -56,24 +56,68 @@ header{
   border: 1px solid #000000;
 }
 
-#overlay1{
+#overlay{
   /* divを起点に位置を調整する */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  /* オーバーレイを作成 */
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   display: none;
 }
-
-#overlay2{
-  /* divを起点に位置を調整する */
+#modal{
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;  
+  right: 0;
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+#modalClose{
+  font-size: 34px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  margin: auto;
+  transition: all 300ms linear;
+}
+#modalClose:hover{
+  opacity: 0.5;
+}
+
+#backToTop{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+  width: 70px;
+  height: 70px;
+  background: #000;
+  border: solid 1px #000;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 300ms linear;
+  visibility: hidden;
+}
+#backToTop:hover{
+  opacity: 0.5;
+}
+#topBtn{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #ffffff;
+  background: none;
+  border: none;
+  font-size: 14px;
 }

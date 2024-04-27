@@ -35,7 +35,7 @@ nav{
 #sec-about{
   max-width: 600px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #div-about{
   display: flex;
@@ -49,13 +49,15 @@ nav{
   position: relative;
   top: 35px;
   right: 35px;
+  border: solid 2px white;
+  outline: solid 2px rgb(153, 153, 153);
 }
 
 /* worksセクション */
 #sec-works{
   max-width: 600px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #div-works{
   display: flex;
@@ -66,4 +68,9 @@ nav{
 }
 #div-works img{
   width: 190px;
+  cursor: pointer;
+  transition: opacity 300ms linear;
+}
+#div-works img:hover{
+  opacity: 0.5;
 }
